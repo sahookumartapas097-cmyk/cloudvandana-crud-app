@@ -5,14 +5,16 @@ A full-stack Salesforce CRUD web application built using React.js and Node.js. T
 ## Features
 
 - Salesforce OAuth 2.0 authentication
-- Secure Salesforce API integration
+- PKCE authentication flow
+- Secure Salesforce REST API integration
 - Dynamic Salesforce object selection
 - Create, View, Update and Delete records
 - Pagination with 20 records per page
+- Infinite scroll to load additional records
 - REST API based backend
 - React.js frontend
 - Node.js and Express.js backend
-- Deployed frontend and backend
+- Deployed frontend and backend using Render
 
 ## Supported Salesforce Objects
 
@@ -34,31 +36,37 @@ For each supported Salesforce object, the application provides:
 - View existing records
 - Edit/Update records
 - Delete records
+- Load additional records through pagination/infinite scroll
 
 All five supported objects have been tested successfully.
 
 ## Technology Stack
 
 ### Frontend
+
 - React.js
 - JavaScript
 - HTML5
 - CSS3
 - Vite
+- Axios
 
 ### Backend
+
 - Node.js
 - Express.js
 - JavaScript
 - Axios
 - REST APIs
 
-### Integration
+### Salesforce Integration
+
 - Salesforce REST API
 - OAuth 2.0
 - PKCE authentication flow
 
 ### Deployment
+
 - Render
 - GitHub
 
